@@ -13,7 +13,7 @@
         <% if @minimum_password_length %>
           <em>(minimum <%= @minimum_password_length %> znakow)</em>
         <% end %><br />
-        <%= f.password_field :haslo, autocomplete: "off", class: 'form-control' %>
+        <%= f.password_field :password, autocomplete: "off", class: 'form-control' %>
       </div>
       
       <div class="form-group">
