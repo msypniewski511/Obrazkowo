@@ -2,3 +2,22 @@ $navbar-default-bg: #CCCCFF;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+/*
+*= require 'masonry/transitions'
+*= require_self
+*= require_tree .
+*/
+
+#pins {
+margin: 0 auto;
+}
+.box {
+margin: 5px;
+width: 214px;
+}
+.box img {
+width: 100%;
+}
+.center {
+text-align: center;
+}
